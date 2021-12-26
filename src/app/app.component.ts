@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   name = "Tom";
   age = 25;
+  colspan=2;
   // title = 'frontend';
 }
