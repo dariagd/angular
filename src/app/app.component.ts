@@ -7,8 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   count: number = 0;
-  increase(): void {
+  increase($event : any): void {
     this.count++;
+    console.log($event);
   }
   // title = 'frontend';
 }
