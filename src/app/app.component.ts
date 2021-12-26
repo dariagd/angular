@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name = "Tom";
-  age = 25;
-  colspan=2;
+  count: number = 0;
+  increase(): void {
+    this.count++;
+  }
   // title = 'frontend';
 }
