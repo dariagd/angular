@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  count: number = 0;
-  increase($event : any): void {
-    this.count++;
-    console.log($event);
-  }
-  // title = 'frontend';
+  name: string = "Dasha";
 }
